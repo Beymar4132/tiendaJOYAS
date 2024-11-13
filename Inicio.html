@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Luna de Luz</title>
+    <style>
+        /* CSS de la página de inicio */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FAF3E0, #FFE5B4);
+            color: #4a4a4a;
+        }
+
+        header {
+            background: linear-gradient(45deg, #C0A060, #D4AF37);
+            color: #fff;
+            padding: 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo img {
+            height: 80px;
+            vertical-align: middle;
+        }
+
+        .titulo-principal {
+            text-align: center;
+            font-size: 60px;
+            font-family: 'Georgia', serif;
+            margin-top: 15px;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #e66a30, #ffff00);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #D4AF37;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #8B6F43;
+            margin-bottom: 25px;
+            max-width: 600px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .cta-buttons a {
+            background: linear-gradient(45deg, #D4AF37, #C0A060);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .cta-buttons a:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 40px 20px;
+            background-color: #f3e8d8;
+        }
+
+        .gallery img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .video-section, .testimonials, .about, .features {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fdf6ec;
+        }
+
+        .video-section h2, .testimonials h2, .about h2, .features h2 {
+            color: #8B6F43;
+            margin-bottom: 20px;
+        }
+
+        .video-section video, .testimonials img, .features img {
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about p, .testimonials p {
+            max-width: 700px;
+            margin: auto;
+            color: #4a4a4a;
+        }
+
+        .back-to-top {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .back-to-top a {
+            color: #fff;
+            background: #C0A060;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .back-to-top a:hover {
+            background: #D4AF37;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #C0A060, #D4AF37);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer .footer-logo img {
+            height: 30px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="galeria/logo.webp" alt="Logo de Luz de Luna">
+        </div>
+        <h1 class="titulo-principal">Luz de Luna</h1>
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="Inicio.html">introduccion</a></li>
+                <li><a href="Colecciones.html">colecciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
+    <section id="Inicio" class="hero">
+        <h1>Bienvenidos a Luna de Luz</h1>
+        <p>Explora la exclusividad y el encanto de nuestra selección de joyas finas, diseñadas para destacar y perdurar en el tiempo. Cada pieza en Luna de Luz está creada con pasión y atención al detalle, ofreciendo un lujo accesible para todos los gustos.</p>
+        <div class="cta-buttons">
+            <a href="Colecciones.html">Ver Colecciones</a>
+            <a href="Contacto.html">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="colecciones" class="gallery">
+        <img src="galeria/ola.jpg" alt="Joya 1">
+        <img src="galeria/ola2.jpg" alt="Joya 2">
+        <img src="galeria/ola3.jpg" alt="Joya 3">
+        <img src="galeria/ola4.jpg" alt="Joya 4">
+    </section>
+
+    <section class="video-section">
+        <h2>Descubre Nuestras Colecciones</h2>
+        <video controls>
+            <source src="galeria/tiendadejoyeria.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </section>
+
+    <section class="features">
+        <h2>Características de Nuestras Joyas</h2>
+        <p>Cada joya en Luna de Luz está hecha con materiales de la más alta calidad, combinando elegancia y durabilidad para que disfrutes de cada pieza a lo largo de los años.</p>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonios</h2>
+        <p>"Luna de Luz ofrece la mejor calidad y diseños únicos. ¡Me encantan mis joyas!" - Cliente Satisfecho</p>
+    </section>
+
+    <section class="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>En Luna de Luz, creemos que cada joya cuenta una historia. Nuestra misión es ofrecer piezas de joyería que no solo complementen tu estilo, sino que también cuenten la historia de tu elegancia y personalidad.</p>
+    </section>
+
+    <div class="back-to-top">
+        <a href="principal.html">Volver</a>
+    </div>
+    <footer>
+        <div class="footer-logo">
+            <img src="galeria/logo.webp" alt="Logo de Luna de Luz">
+        </div>
+        <p>&copy; 2024 Luna de Luz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
